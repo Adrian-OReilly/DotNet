@@ -1,0 +1,9 @@
+C:\Users\adria\source\repos\Cache\Cache\bin\Debug\netstandard2.0\Cache.deps.json
+C:\Users\adria\source\repos\Cache\Cache\bin\Debug\netstandard2.0\Cache.dll
+C:\Users\adria\source\repos\Cache\Cache\bin\Debug\netstandard2.0\Cache.pdb
+C:\Users\adria\source\repos\Cache\Cache\obj\Debug\netstandard2.0\Cache.csprojAssemblyReference.cache
+C:\Users\adria\source\repos\Cache\Cache\obj\Debug\netstandard2.0\Cache.AssemblyInfoInputs.cache
+C:\Users\adria\source\repos\Cache\Cache\obj\Debug\netstandard2.0\Cache.AssemblyInfo.cs
+C:\Users\adria\source\repos\Cache\Cache\obj\Debug\netstandard2.0\Cache.csproj.CoreCompileInputs.cache
+C:\Users\adria\source\repos\Cache\Cache\obj\Debug\netstandard2.0\Cache.dll
+C:\Users\adria\source\repos\Cache\Cache\obj\Debug\netstandard2.0\Cache.pdb
