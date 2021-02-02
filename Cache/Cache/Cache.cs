@@ -11,7 +11,7 @@ namespace Cache
     /// <Remarks> Author: Adrian O'Reilly </Remarks>
     /// <typeparam name="K">Type of key</typeparam>
     /// <typeparam name="T">Type of item to be stored</typeparam>
-    public sealed class InMemoryCache<K, T> : IEnumerable
+    public sealed class InMemoryCache<K, T> : IEnumerable, IDisposable
     {
         private static readonly object _lock = new object();
 
@@ -237,6 +237,15 @@ namespace Cache
         private void OnEviction(K key)
         {
             EvictionNotification?.Invoke(this, key);
+        }
+
+        /// <summary>
+        /// used for test suite, so can create a number of instances passing in different 
+        /// parameters in GetInstance()
+        /// </summary>
+        public void Dispose()
+        {
+            _instance = null;
         }
     }
 }
